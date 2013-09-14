@@ -1,0 +1,6 @@
+
+# C Sharp
+*.exe
+
+# Linux
+.directory
