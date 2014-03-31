@@ -71,7 +71,7 @@ class Test
 		// Si se termino de ejecutar el hilo de manera asíncrona
 		else if (objIAR.CompletedSynchronously == false)
 			Console.WriteLine ("El hilo se termino de forma asíncrona");
-
+			
 		// Espera a que se presione una tecla
 		Console.Read ();
 	}
