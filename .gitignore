@@ -4,3 +4,6 @@
 
 # Linux
 .directory
+
+# No terminados
+_*
