@@ -1,16 +1,15 @@
 
-/*
- * Supongamos que se consruye una escalera usando ladrillos, tal
- * como se muestra en la figura:
+/* Problema: Supongamos que se consruye una escalera usando 
+ * ladrillos, tal como se muestra en la figura:
  *
- *       []
- *     [][]
- *   [][][]
- * [][][][]
+ *				       []
+ *				     [][]
+ *				   [][][]
+ *				 [][][][]
  *
  * Cree un método que devuelva la cantiad de ladrillos totales, según
  * el número de columnas que se decida crear para la escalera. Por
- * ejemplo si se le pasan 4 columnas abrán 10 ladrillos.
+ * ejemplo si se le pasan 4 columnas habrá 10 ladrillos.
  *
  * El método debe tener la siguiente forma:
  * 		public static int CantLadrillos (int col)
@@ -37,12 +36,6 @@ public class Ladrillos
 
 	public static int CantLadrillos (int col)
 	{
-		int cantLadrillos = 0;
-
-		for (int i = 0; i <= col; i++) {
-			cantLadrillos = cantLadrillos + (col - i);
-		}
-
-		return cantLadrillos;
+		return (col * col) / 2 + col / 2;
 	}
 }

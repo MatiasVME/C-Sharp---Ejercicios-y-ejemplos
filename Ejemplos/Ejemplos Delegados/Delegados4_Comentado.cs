@@ -97,7 +97,6 @@ public class OtraClase
 
 public class TratarDelegados
 {
-
 	public static void InformaciónObjDelegado (Delegate objDel)
 	{
 		Console.WriteLine ("Información del objeto delegado");
