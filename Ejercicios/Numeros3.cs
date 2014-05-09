@@ -103,9 +103,7 @@ public class Ordena
 {
 	public static void OrdBurb (int [] nums)
 	{
-		int aux;
-
-		for (int i = 1; i < nums.Length; i++) {
+		for (int i = 1, aux; i < nums.Length; i++) {
 			for (int j = 0; j < nums.Length - i; j++) {
 				if (nums[j] > nums[j + 1]) {
 					aux = nums[j];
